@@ -1,0 +1,33 @@
+.card-container {
+  display: flex;
+  flex-wrap: wrap; /* Allows wrapping of cards onto the next line */
+  justify-content: space-around; /* Distribute items evenly in the container */
+  padding: 10px; /* Optional padding for spacing */
+}
+
+.card {
+  width: 250px; /* Fixed card width */
+  margin: 10px; /* Optional margin for spacing between cards */
+  overflow: hidden; /* Prevents text or images from overflowing */
+}
+
+.card img {
+  height: 150px; /* Adjust height for image */
+  object-fit: cover; /* Maintain aspect ratio of the image */
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column; /* Stack elements vertically */
+}
+
+.card-title {
+  text-align: center; /* Center text */
+  font-size:10px;
+}
+
+.d-flex {
+  display: flex;
+  align-items: center; /* Align vertically */
+  justify-content: space-around; /* Distribute content */
+}

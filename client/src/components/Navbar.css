@@ -1,0 +1,31 @@
+/* Navbar Component CSS */
+.navbar {
+    background-color: black !important;
+    padding: 10px 20px; /* Adjusted padding for compact spacing */
+  }
+  
+  .navbar-brand {
+    font-size: 2rem; /* Adjusted font size for readability */
+    font-style: italic;
+  }
+  
+  .nav-link {
+    margin-right: 15px; /* Adding a bit of spacing between links */
+    font-size: 1.2rem; /* Adjusted font size for consistency */
+  }
+  
+  .navbar-toggler-icon {
+    filter: invert(100%); /* Changed icon color to white for contrast */
+  }
+  
+  @media (max-width: 768px) {
+    .navbar-collapse {
+      flex-grow: 0;
+    }
+  
+    .navbar-nav {
+      flex-direction: column; /* Stack items vertically on smaller screens */
+      align-items: flex-start; /* Align start for better mobile navigation */
+    }
+  }
+  
