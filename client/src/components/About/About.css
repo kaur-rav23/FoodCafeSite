@@ -1,0 +1,70 @@
+.services-container{
+  background-color: #000;
+  text-align: center;
+}
+.services-app {
+    padding: 20px;
+    text-align: center;
+    width:80%;
+    /* border: 1px solid #ffff; */
+    display: flex;
+    justify-content: center;
+   
+  }
+  .services-outer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    color: #fff;
+  
+  }
+  .services {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 20px;
+    width:80%;
+  }
+  
+  .service {
+    background-color:#ff9000;
+    padding: 20px;
+    border-radius: 5px;
+    height:90%;
+    width: 30%;
+  }
+  .service:hover{
+    background-color: #ff4c3b;
+    transition: background-color 0.3s ease-in-out;
+  }
+  .service .icon {
+    font-size: 25px;
+  }
+  
+  .service h3 {
+    margin-top: 10px;
+  }
+  
+  .service p {
+    margin-top: 10px;
+    margin-bottom: 40px;
+  }
+  
+  .service button {
+    margin-top: 12px;
+    padding: 8px 16px;
+    border-radius: 3px;
+    border: none;
+    background-color: #fff;
+    color: #000;
+    cursor: pointer;
+  }
+  
+  .service button:hover {
+    background-color: #e6e6e6;
+  }
+  
+  h2 {
+    margin-top: 20px;
+  }
+  
