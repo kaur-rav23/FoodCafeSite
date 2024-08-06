@@ -9,7 +9,7 @@ export default function Signup() {
         console.log('Submitting:', credentials);
 
         try {
-            const response = await fetch("http://localhost:5000/api/CreateUser", {
+            const response = await fetch("https://gofoods-zomd.onrender.com/api/CreateUser", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json"
