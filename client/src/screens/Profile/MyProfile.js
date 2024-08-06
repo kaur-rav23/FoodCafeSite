@@ -16,7 +16,7 @@ const MyProfile = () => {
             }
             const authToken = localStorage.getItem('authToken'); // Retrieve JWT token from local storage
 
-            const response = await fetch("http://localhost:5000/api/userData", {
+            const response = await fetch("https://gofoods-zomd.onrender.com/api/userData", {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
