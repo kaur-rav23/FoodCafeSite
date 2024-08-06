@@ -60,7 +60,7 @@ const Offers = () => {
 
     const fetchCouponsFromBackend = async () => {
         try {
-            const response = await fetch('http://localhost:5000/api/offersData');
+            const response = await fetch('https://gofoods-zomd.onrender.com/api/offersData');
             if (!response.ok) {
                 throw new Error('Failed to fetch coupons');
             }
